@@ -1,0 +1,6 @@
+{
+  "implementation_ready": false,
+  "method": "contours",
+  "parameters": {},
+  "selection_notes": "Role owner must add named settings, explain development/validation selection, and set implementation_ready to true only after implementing and checking detect()."
+}

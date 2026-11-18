@@ -1,0 +1,5 @@
+# Starter package list. Role 5 replaces this with pip freeze after checking a clean environment.
+opencv-python
+numpy
+pandas
+matplotlib

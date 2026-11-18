@@ -1,0 +1,249 @@
+{
+  "status": "not_started",
+  "camera": null,
+  "camera_height_cm": null,
+  "resolution": null,
+  "capture_procedure": null,
+  "arrangements": [
+    {
+      "arrangement_id": "01",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "02",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "03",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "04",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "05",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "06",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "07",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "08",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "09",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "10",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "11",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "12",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "13",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "14",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "15",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "16",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "17",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "18",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "19",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "20",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "21",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "22",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "23",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "24",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "25",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "26",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "27",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "28",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "29",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "30",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "31",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "32",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "33",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "34",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "35",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "36",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "37",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "38",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "39",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    },
+    {
+      "arrangement_id": "40",
+      "owner": null,
+      "capture_status": "not_started",
+      "notes": ""
+    }
+  ]
+}
