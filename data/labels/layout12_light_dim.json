@@ -1,12 +1,1 @@
-{
-  "image_id": "layout12_light_dim",
-  "annotation_status": "not_started",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
-  "image_width": null,
-  "image_height": null,
-  "coin_count": null,
-  "coins": null,
-  "notes": ""
-}
+{"layout12_light_dim.jpg347349":{"filename":"layout12_light_dim.jpg","size":347349,"regions":[{"shape_attributes":{"name":"circle","cx":244,"cy":341,"r":167},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":688,"cy":331,"r":171.565},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":224,"cy":789,"r":171},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":660,"cy":761,"r":153.423},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1112,"cy":734,"r":173.487},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1709,"cy":759,"r":213.819},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":664,"cy":1176,"r":158},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1095,"cy":1319,"r":205},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1725,"cy":1400,"r":207.767},"region_attributes":{}}],"file_attributes":{}}}

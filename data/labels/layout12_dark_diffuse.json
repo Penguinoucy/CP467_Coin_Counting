@@ -1,12 +1,90 @@
 {
-  "image_id": "layout12_dark_diffuse",
-  "annotation_status": "not_started",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
-  "image_width": null,
-  "image_height": null,
-  "coin_count": null,
-  "coins": null,
-  "notes": ""
+    "layout12_dark_diffuse.jpg1052638": {
+        "filename": "layout12_dark_diffuse.jpg",
+        "size": 1052638,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 404,
+                    "cy": 463,
+                    "r": 153
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 840,
+                    "cy": 455,
+                    "r": 155
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 425,
+                    "cy": 879,
+                    "r": 155
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 875,
+                    "cy": 917,
+                    "r": 141
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1286,
+                    "cy": 860,
+                    "r": 160
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1803,
+                    "cy": 848,
+                    "r": 206
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 895,
+                    "cy": 1304,
+                    "r": 148
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1316,
+                    "cy": 1344,
+                    "r": 202
+                },
+                "region_attributes": {}
+            },
+            {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1853,
+                    "cy": 1430,
+                    "r": 198
+                },
+                "region_attributes": {}
+            }
+        ],
+        "file_attributes": {}
+    }
 }
