@@ -1,12 +1,1 @@
-{
-  "image_id": "layout03_light_dim",
-  "annotation_status": "not_started",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
-  "image_width": null,
-  "image_height": null,
-  "coin_count": null,
-  "coins": null,
-  "notes": ""
-}
+{"layout03_light_dim.jpg1092795":{"filename":"layout03_light_dim.jpg","size":1092795,"regions":[{"shape_attributes":{"name":"circle","cx":1658,"cy":2886,"r":215.947},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":617,"cy":3046,"r":145},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2632,"cy":1564,"r":141},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1240,"cy":1112,"r":187.602},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":859,"cy":843,"r":178},"region_attributes":{}}],"file_attributes":{}}}

@@ -1,12 +1,1 @@
-{
-  "image_id": "layout03_dark_diffuse",
-  "annotation_status": "not_started",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
-  "image_width": null,
-  "image_height": null,
-  "coin_count": null,
-  "coins": null,
-  "notes": ""
-}
+{"layout03_dark_diffuse.jpg4043393":{"filename":"layout03_dark_diffuse.jpg","size":4043393,"regions":[{"shape_attributes":{"name":"circle","cx":1393,"cy":2727,"r":197},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2494,"cy":1708,"r":123},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":584,"cy":2903,"r":119},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1167,"cy":1355,"r":163},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":843,"cy":1080,"r":139},"region_attributes":{}}],"file_attributes":{}}}
