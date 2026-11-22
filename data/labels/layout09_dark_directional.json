@@ -1,90 +1,58 @@
 {
-    "layout09_dark_directional.jpg670437": {
-        "filename": "layout09_dark_directional.jpg",
-        "size": 670437,
-        "regions": [
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 583,
-                    "cy": 524,
-                    "r": 137.563
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1044,
-                    "cy": 534,
-                    "r": 157
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1490,
-                    "cy": 541,
-                    "r": 160
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 552,
-                    "cy": 1062,
-                    "r": 177
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 993,
-                    "cy": 1109,
-                    "r": 194
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1529,
-                    "cy": 1163,
-                    "r": 170
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 560,
-                    "cy": 1612,
-                    "r": 199
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 982,
-                    "cy": 1672,
-                    "r": 165.93
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1485,
-                    "cy": 1692,
-                    "r": 155
-                },
-                "region_attributes": {}
-            }
-        ],
-        "file_attributes": {}
+  "image_id": "layout09_dark_directional",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 1985,
+  "image_height": 2284,
+  "coin_count": 9,
+  "coins": [
+    {
+      "x": 583,
+      "y": 524,
+      "radius": 137.563
+    },
+    {
+      "x": 1044,
+      "y": 534,
+      "radius": 157
+    },
+    {
+      "x": 1490,
+      "y": 541,
+      "radius": 160
+    },
+    {
+      "x": 552,
+      "y": 1062,
+      "radius": 177
+    },
+    {
+      "x": 993,
+      "y": 1109,
+      "radius": 194
+    },
+    {
+      "x": 1529,
+      "y": 1163,
+      "radius": 170
+    },
+    {
+      "x": 560,
+      "y": 1612,
+      "radius": 199
+    },
+    {
+      "x": 982,
+      "y": 1672,
+      "radius": 165.93
+    },
+    {
+      "x": 1485,
+      "y": 1692,
+      "radius": 155
     }
+  ],
+  "notes": "Converted from VIA export layout09_dark_directional.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
 }

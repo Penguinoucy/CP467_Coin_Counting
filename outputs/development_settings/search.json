@@ -1,0 +1,375 @@
+{
+  "split": "development",
+  "annotation_review": "provisional_unreviewed",
+  "image_ids": [
+    "layout01_light_diffuse",
+    "layout01_light_dim",
+    "layout01_light_directional",
+    "layout01_dark_diffuse",
+    "layout01_dark_dim",
+    "layout01_dark_directional",
+    "layout03_light_diffuse",
+    "layout03_light_dim",
+    "layout03_light_directional",
+    "layout03_dark_diffuse",
+    "layout03_dark_dim",
+    "layout03_dark_directional",
+    "layout04_light_diffuse",
+    "layout04_light_dim",
+    "layout04_light_directional",
+    "layout04_dark_diffuse",
+    "layout04_dark_dim",
+    "layout04_dark_directional",
+    "layout09_light_diffuse",
+    "layout09_light_dim",
+    "layout09_light_directional",
+    "layout09_dark_diffuse",
+    "layout09_dark_dim",
+    "layout09_dark_directional",
+    "layout10_light_diffuse",
+    "layout10_light_dim",
+    "layout10_light_directional",
+    "layout10_dark_diffuse",
+    "layout10_dark_dim",
+    "layout10_dark_directional",
+    "layout11_light_diffuse",
+    "layout11_light_dim",
+    "layout11_light_directional",
+    "layout11_dark_diffuse",
+    "layout11_dark_dim",
+    "layout11_dark_directional"
+  ],
+  "selection_rule": "Highest mean detection F1 across off/on, lower mean count MAE as tie-break.",
+  "candidates": [
+    {
+      "method": "hough",
+      "parameter": "accumulator_threshold",
+      "value": 35,
+      "mean_f1": 0.630343043226123,
+      "mean_mae": 11.86111111111111,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 467,
+            "tp": 306,
+            "fp": 161,
+            "fn": 0,
+            "precision": 0.6552462526766595,
+            "recall": 1.0,
+            "f1": 0.7917205692108668,
+            "count_mae": 4.472222222222222,
+            "exact_count_accuracy": 0.7222222222222222,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 999,
+            "tp": 306,
+            "fp": 693,
+            "fn": 0,
+            "precision": 0.3063063063063063,
+            "recall": 1.0,
+            "f1": 0.4689655172413793,
+            "count_mae": 19.25,
+            "exact_count_accuracy": 0.3333333333333333,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "method": "hough",
+      "parameter": "accumulator_threshold",
+      "value": 45,
+      "mean_f1": 0.7682051250822108,
+      "mean_mae": 5.902777777777778,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 367,
+            "tp": 306,
+            "fp": 61,
+            "fn": 0,
+            "precision": 0.8337874659400545,
+            "recall": 1.0,
+            "f1": 0.9093610698365527,
+            "count_mae": 1.6944444444444444,
+            "exact_count_accuracy": 0.8611111111111112,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 670,
+            "tp": 306,
+            "fp": 364,
+            "fn": 0,
+            "precision": 0.45671641791044776,
+            "recall": 1.0,
+            "f1": 0.6270491803278688,
+            "count_mae": 10.11111111111111,
+            "exact_count_accuracy": 0.6111111111111112,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "method": "hough",
+      "parameter": "accumulator_threshold",
+      "value": 55,
+      "mean_f1": 0.8628073460226857,
+      "mean_mae": 3.027777777777778,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 317,
+            "tp": 304,
+            "fp": 13,
+            "fn": 2,
+            "precision": 0.9589905362776026,
+            "recall": 0.9934640522875817,
+            "f1": 0.9759229534510433,
+            "count_mae": 0.4166666666666667,
+            "exact_count_accuracy": 0.8888888888888888,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 505,
+            "tp": 304,
+            "fp": 201,
+            "fn": 2,
+            "precision": 0.601980198019802,
+            "recall": 0.9934640522875817,
+            "f1": 0.749691738594328,
+            "count_mae": 5.638888888888889,
+            "exact_count_accuracy": 0.7222222222222222,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "method": "hough",
+      "parameter": "accumulator_threshold",
+      "value": 65,
+      "mean_f1": 0.9142633306745751,
+      "mean_mae": 1.6388888888888888,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 295,
+            "tp": 293,
+            "fp": 2,
+            "fn": 13,
+            "precision": 0.9932203389830508,
+            "recall": 0.9575163398692811,
+            "f1": 0.9750415973377704,
+            "count_mae": 0.4166666666666667,
+            "exact_count_accuracy": 0.75,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 397,
+            "tp": 300,
+            "fp": 97,
+            "fn": 6,
+            "precision": 0.7556675062972292,
+            "recall": 0.9803921568627451,
+            "f1": 0.8534850640113798,
+            "count_mae": 2.861111111111111,
+            "exact_count_accuracy": 0.7777777777777778,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "method": "contours",
+      "parameter": "min_circularity",
+      "value": 0.5,
+      "mean_f1": 0.763304347826087,
+      "mean_mae": 2.708333333333333,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 194,
+            "tp": 186,
+            "fp": 8,
+            "fn": 120,
+            "precision": 0.9587628865979382,
+            "recall": 0.6078431372549019,
+            "f1": 0.744,
+            "count_mae": 3.111111111111111,
+            "exact_count_accuracy": 0.25,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 223,
+            "tp": 207,
+            "fp": 16,
+            "fn": 99,
+            "precision": 0.9282511210762332,
+            "recall": 0.6764705882352942,
+            "f1": 0.782608695652174,
+            "count_mae": 2.3055555555555554,
+            "exact_count_accuracy": 0.3055555555555556,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "method": "contours",
+      "parameter": "min_circularity",
+      "value": 0.65,
+      "mean_f1": 0.7487299329404593,
+      "mean_mae": 2.9444444444444446,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 188,
+            "tp": 182,
+            "fp": 6,
+            "fn": 124,
+            "precision": 0.9680851063829787,
+            "recall": 0.5947712418300654,
+            "f1": 0.7368421052631579,
+            "count_mae": 3.2777777777777777,
+            "exact_count_accuracy": 0.2222222222222222,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 212,
+            "tp": 197,
+            "fp": 15,
+            "fn": 109,
+            "precision": 0.9292452830188679,
+            "recall": 0.6437908496732027,
+            "f1": 0.7606177606177607,
+            "count_mae": 2.611111111111111,
+            "exact_count_accuracy": 0.2777777777777778,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "method": "contours",
+      "parameter": "min_circularity",
+      "value": 0.8,
+      "mean_f1": 0.7247768318343011,
+      "mean_mae": 3.4722222222222223,
+      "results": [
+        {
+          "clahe": false,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 177,
+            "tp": 173,
+            "fp": 4,
+            "fn": 133,
+            "precision": 0.9774011299435028,
+            "recall": 0.565359477124183,
+            "f1": 0.7163561076604554,
+            "count_mae": 3.5833333333333335,
+            "exact_count_accuracy": 0.2222222222222222,
+            "median_ms": 0.0
+          }
+        },
+        {
+          "clahe": true,
+          "summary": {
+            "status": "evaluated",
+            "n_images": 36,
+            "n_arrangements": 6,
+            "true_coins": 306,
+            "predicted_coins": 185,
+            "tp": 180,
+            "fp": 5,
+            "fn": 126,
+            "precision": 0.972972972972973,
+            "recall": 0.5882352941176471,
+            "f1": 0.7331975560081466,
+            "count_mae": 3.361111111111111,
+            "exact_count_accuracy": 0.2222222222222222,
+            "median_ms": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": "Reported development scores reuse these data; no independent generalization claim."
+}

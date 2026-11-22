@@ -1,0 +1,17 @@
+{
+  "software_tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "configurations_per_split": 4,
+  "development_photos": 36,
+  "validation_photos": 12,
+  "same_photo_ids_across_variants": true,
+  "per_image_count_identities_checked": true,
+  "touching_evaluation": "not_evaluated",
+  "final_test_evaluated": false,
+  "independent_label_review": "pending",
+  "pdf_main_pages": 5,
+  "pdf_reference_pages": 1,
+  "pdf_all_pages_visually_reviewed": true
+}

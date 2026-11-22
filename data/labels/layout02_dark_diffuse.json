@@ -1,1 +1,63 @@
-{"layout02_dark_diffuse.jpg4962178":{"filename":"layout02_dark_diffuse.jpg","size":4962178,"regions":[{"shape_attributes":{"name":"circle","cx":2467,"cy":2550,"r":171.109},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1740,"cy":2804,"r":171},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1052,"cy":3128,"r":137},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1564,"cy":2049,"r":148},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":534,"cy":2044,"r":148},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2512,"cy":1752,"r":110},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":727,"cy":1140,"r":139},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1239,"cy":644,"r":117},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1873,"cy":777,"r":154},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2545,"cy":936,"r":130},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout02_dark_diffuse",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 3024,
+  "image_height": 4032,
+  "coin_count": 10,
+  "coins": [
+    {
+      "x": 2467,
+      "y": 2550,
+      "radius": 171.109
+    },
+    {
+      "x": 1740,
+      "y": 2804,
+      "radius": 171
+    },
+    {
+      "x": 1052,
+      "y": 3128,
+      "radius": 137
+    },
+    {
+      "x": 1564,
+      "y": 2049,
+      "radius": 148
+    },
+    {
+      "x": 534,
+      "y": 2044,
+      "radius": 148
+    },
+    {
+      "x": 2512,
+      "y": 1752,
+      "radius": 110
+    },
+    {
+      "x": 727,
+      "y": 1140,
+      "radius": 139
+    },
+    {
+      "x": 1239,
+      "y": 644,
+      "radius": 117
+    },
+    {
+      "x": 1873,
+      "y": 777,
+      "radius": 154
+    },
+    {
+      "x": 2545,
+      "y": 936,
+      "radius": 130
+    }
+  ],
+  "notes": "Converted from VIA export layout02_dark_diffuse.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

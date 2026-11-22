@@ -45,15 +45,15 @@ def load_manifest(root):
             raise ValueError(f"Layout {aid} must have all six unique conditions")
     return rows
 
-def validate_label(label, image_id):
+def validate_label(label, image_id, allow_unreviewed=False):
     if label.get("image_id") != image_id:
         raise ValueError("Label image_id does not match manifest")
-    if label.get("annotation_status") != "complete" or label.get("review_status") != "reviewed":
+    if label.get("annotation_status") != "complete" or (not allow_unreviewed and label.get("review_status") != "reviewed"):
         raise ValueError(f"Labels for {image_id} are incomplete or unreviewed")
     for key in ["annotator", "reviewer"]:
-        if not isinstance(label.get(key), str) or not label[key].strip():
+        if not allow_unreviewed and (not isinstance(label.get(key), str) or not label[key].strip()):
             raise ValueError(f"Missing {key}")
-    if label["annotator"].strip().casefold() == label["reviewer"].strip().casefold():
+    if not allow_unreviewed and label["annotator"].strip().casefold() == label["reviewer"].strip().casefold():
         raise ValueError("A second member must review the labels")
     w,h=label.get("image_width"),label.get("image_height")
     if type(w) is not int or type(h) is not int or w<=0 or h<=0:
@@ -70,6 +70,6 @@ def validate_label(label, image_id):
             raise ValueError("Coin centre outside the image or radius not positive")
     return label
 
-def load_label(root, image_id):
+def load_label(root, image_id, allow_unreviewed=False):
     p=Path(root)/"data/labels"/(image_id+".json")
-    return validate_label(json.loads(p.read_text(encoding="utf-8")),image_id)
+    return validate_label(json.loads(p.read_text(encoding="utf-8")),image_id,allow_unreviewed=allow_unreviewed)

@@ -1,1 +1,48 @@
-{"layout01_light_diffuse.jpg1468835":{"filename":"layout01_light_diffuse.jpg","size":1468835,"regions":[{"shape_attributes":{"name":"circle","cx":2329,"cy":1090,"r":181},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1702,"cy":438,"r":152},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":607,"cy":847,"r":165},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":562,"cy":2045,"r":196},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1801,"cy":2328,"r":152},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":502,"cy":3105,"r":116},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2463,"cy":3015,"r":137},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout01_light_diffuse",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 2841,
+  "image_height": 3645,
+  "coin_count": 7,
+  "coins": [
+    {
+      "x": 2329,
+      "y": 1090,
+      "radius": 181
+    },
+    {
+      "x": 1702,
+      "y": 438,
+      "radius": 152
+    },
+    {
+      "x": 607,
+      "y": 847,
+      "radius": 165
+    },
+    {
+      "x": 562,
+      "y": 2045,
+      "radius": 196
+    },
+    {
+      "x": 1801,
+      "y": 2328,
+      "radius": 152
+    },
+    {
+      "x": 502,
+      "y": 3105,
+      "radius": 116
+    },
+    {
+      "x": 2463,
+      "y": 3015,
+      "radius": 137
+    }
+  ],
+  "notes": "Converted from VIA export layout01_light_diffuse.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

@@ -52,6 +52,8 @@ def main():
     ap.add_argument("--split",choices=["development","validation","test"])
     ap.add_argument("--clahe",choices=["off","on"])
     ap.add_argument("--output")
+    ap.add_argument("--layouts", nargs="+", help="Explicit layout IDs restricted to selected split")
+    ap.add_argument("--diagnostics", action="store_true", help="Save masks/edges outside timing")
     ap.add_argument("--limit",type=int,help="Optional development-only pilot limit")
     args=ap.parse_args()
     rows=load_manifest(ROOT)
@@ -72,6 +74,11 @@ def main():
         raise ValueError("Invalid timing repetition settings")
     config["common"]=common
     selected=[r for r in rows if r["split"]==args.split]
+    if args.layouts:
+        requested={str(int(a)).zfill(2) for a in args.layouts}
+        available={r['arrangement_id'] for r in selected}
+        if requested-available:raise ValueError(f"Requested layouts outside {args.split}: {sorted(requested-available)}")
+        selected=[r for r in selected if r['arrangement_id'] in requested]
     if args.limit is not None:selected=selected[:args.limit]
     if not selected:raise ValueError("No selected photos")
     missing=[r["image_path"] for r in selected if not (ROOT/r["image_path"]).is_file()]
@@ -79,10 +86,13 @@ def main():
     try:import cv2
     except ImportError as e:raise ValueError("Install requirements.txt before image processing") from e
     from utils.visualization import draw_detections
-    detector=importlib.import_module(f"detectors.{args.method}").detect
+    if hasattr(cv2,'setNumThreads'):cv2.setNumThreads(int(common.get('opencv_threads',1)))
+    module=importlib.import_module(f"detectors.{args.method}")
+    detector=module.detect
     output=(ROOT/args.output).resolve()
     output.mkdir(parents=True,exist_ok=False)
     (output/"marked_images").mkdir()
+    if args.diagnostics:(output/'diagnostics').mkdir()
     results=[]
     for row in selected:
         image=cv2.imread(str(ROOT/row["image_path"]))
@@ -97,16 +107,25 @@ def main():
             timings.append((perf_counter()-start)*1000)
         coins=normalize(raw,w,h)
         marked=draw_detections(image,coins)
+        if hasattr(cv2,'resize') and max(marked.shape[:2])>1000:
+            mh,mw=marked.shape[:2];factor=1000/max(mh,mw)
+            marked=cv2.resize(marked,(round(mw*factor),round(mh*factor)),interpolation=cv2.INTER_AREA)
         if not cv2.imwrite(str(output/"marked_images"/(row["image_id"]+".jpg")),marked):
             raise ValueError("Failed to write marked image")
+        if args.diagnostics:
+            debug=module.diagnostics(image,config,use_clahe=args.clahe=='on')
+            for key,value in debug.items():
+                if hasattr(value,'shape'):cv2.imwrite(str(output/'diagnostics'/(row['image_id']+'_'+key+'.png')),value)
         results.append({**row,"image_width":w,"image_height":h,"count":len(coins),"coins":coins,
                         "median_ms":median(timings),"timings_ms":timings})
     run={"status":"completed","created_at":datetime.now(timezone.utc).isoformat(),
          "method":args.method,"clahe":args.clahe=="on","split":args.split,
-         "pilot_run":args.limit is not None,"config":config,"environment":metadata(ROOT),"images":results}
+         "pilot_run":args.limit is not None or args.layouts is not None,
+         "selected_layouts":sorted({r['arrangement_id'] for r in selected}),
+         "opencv_version":getattr(cv2,'__version__','unknown'),"config":config,"environment":metadata(ROOT),"images":results}
     (output/"predictions.json").write_text(json.dumps(run,indent=2,allow_nan=False),encoding="utf-8")
     print(f"Completed {len(results)} photos. Saved {output/'predictions.json'}")
-    print("Accuracy has not been evaluated. Use evaluate.py after Role 4 completes it.")
+    print("Accuracy has not been evaluated. Use evaluate.py with the corresponding labels.")
 
 if __name__=="__main__":
     try:main()

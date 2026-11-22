@@ -1,1 +1,73 @@
-{"layout04_dark_directional.jpg3810150":{"filename":"layout04_dark_directional.jpg","size":3810150,"regions":[{"shape_attributes":{"name":"circle","cx":628,"cy":2952,"r":183},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":567,"cy":2611,"r":148},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":980,"cy":2561,"r":165.613},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1415,"cy":2721,"r":160.117},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1824,"cy":2815,"r":163},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2385,"cy":2990,"r":181.854},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2340,"cy":2061,"r":126},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":397,"cy":1950,"r":153},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":700,"cy":1818,"r":153},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1145,"cy":1702,"r":204},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1449,"cy":1036,"r":173},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1702,"cy":529,"r":123},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout04_dark_directional",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 3024,
+  "image_height": 4032,
+  "coin_count": 12,
+  "coins": [
+    {
+      "x": 628,
+      "y": 2952,
+      "radius": 183
+    },
+    {
+      "x": 567,
+      "y": 2611,
+      "radius": 148
+    },
+    {
+      "x": 980,
+      "y": 2561,
+      "radius": 165.613
+    },
+    {
+      "x": 1415,
+      "y": 2721,
+      "radius": 160.117
+    },
+    {
+      "x": 1824,
+      "y": 2815,
+      "radius": 163
+    },
+    {
+      "x": 2385,
+      "y": 2990,
+      "radius": 181.854
+    },
+    {
+      "x": 2340,
+      "y": 2061,
+      "radius": 126
+    },
+    {
+      "x": 397,
+      "y": 1950,
+      "radius": 153
+    },
+    {
+      "x": 700,
+      "y": 1818,
+      "radius": 153
+    },
+    {
+      "x": 1145,
+      "y": 1702,
+      "radius": 204
+    },
+    {
+      "x": 1449,
+      "y": 1036,
+      "radius": 173
+    },
+    {
+      "x": 1702,
+      "y": 529,
+      "radius": 123
+    }
+  ],
+  "notes": "Converted from VIA export layout04_dark_directional.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

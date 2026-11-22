@@ -1,0 +1,1872 @@
+{
+  "status": "completed",
+  "method": "contours",
+  "clahe": false,
+  "split": "development",
+  "pilot_run": true,
+  "annotation_review": "provisional_unreviewed",
+  "review_disclosure": "Scores use supplied VIA annotations; original annotator names and independent review pending.",
+  "results": {
+    "per_image": [
+      {
+        "image_id": "layout01_light_diffuse",
+        "arrangement_id": "01",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 6,
+        "true_count": 7,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 45.61914350006191,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          5
+        ]
+      },
+      {
+        "image_id": "layout01_light_dim",
+        "arrangement_id": "01",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 7,
+        "true_count": 7,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 43.93718049959716,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout01_light_directional",
+        "arrangement_id": "01",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 2,
+        "fn": 6,
+        "predicted_count": 3,
+        "true_count": 7,
+        "absolute_count_error": 4,
+        "exact_count": false,
+        "median_ms": 44.98067600025024,
+        "matches": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unmatched_predictions": [
+          0,
+          1
+        ],
+        "unmatched_labels": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "image_id": "layout01_dark_diffuse",
+        "arrangement_id": "01",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 4,
+        "true_count": 7,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 50.047494499722234,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "image_id": "layout01_dark_dim",
+        "arrangement_id": "01",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 7,
+        "true_count": 7,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 48.6866980004379,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout01_dark_directional",
+        "arrangement_id": "01",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 4,
+        "true_count": 7,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 49.12877700007812,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "image_id": "layout03_light_diffuse",
+        "arrangement_id": "03",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 3,
+        "true_count": 5,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 48.99080899986075,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1
+        ]
+      },
+      {
+        "image_id": "layout03_light_dim",
+        "arrangement_id": "03",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 5,
+        "true_count": 5,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 49.15029450012298,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout03_light_directional",
+        "arrangement_id": "03",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 1,
+        "fn": 4,
+        "predicted_count": 2,
+        "true_count": 5,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 49.52075250048438,
+        "matches": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unmatched_predictions": [
+          0
+        ],
+        "unmatched_labels": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "image_id": "layout03_dark_diffuse",
+        "arrangement_id": "03",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 3,
+        "true_count": 5,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 50.821278000057646,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1
+        ]
+      },
+      {
+        "image_id": "layout03_dark_dim",
+        "arrangement_id": "03",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 5,
+        "true_count": 5,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 49.33518350026134,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout03_dark_directional",
+        "arrangement_id": "03",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 3,
+        "true_count": 5,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 50.20665700021709,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1
+        ]
+      },
+      {
+        "image_id": "layout04_light_diffuse",
+        "arrangement_id": "04",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 9,
+        "true_count": 12,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 50.128903499626176,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "image_id": "layout04_light_dim",
+        "arrangement_id": "04",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 12,
+        "true_count": 12,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 50.06860100002086,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout04_light_directional",
+        "arrangement_id": "04",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 5,
+        "fn": 11,
+        "predicted_count": 6,
+        "true_count": 12,
+        "absolute_count_error": 6,
+        "exact_count": false,
+        "median_ms": 50.39240950009116,
+        "matches": [
+          [
+            2,
+            3
+          ]
+        ],
+        "unmatched_predictions": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "image_id": "layout04_dark_diffuse",
+        "arrangement_id": "04",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 10,
+        "true_count": 12,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 49.50843200003874,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          6
+        ]
+      },
+      {
+        "image_id": "layout04_dark_dim",
+        "arrangement_id": "04",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 10,
+        "true_count": 12,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 50.32121950034707,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          7
+        ]
+      },
+      {
+        "image_id": "layout04_dark_directional",
+        "arrangement_id": "04",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 5,
+        "predicted_count": 7,
+        "true_count": 12,
+        "absolute_count_error": 5,
+        "exact_count": false,
+        "median_ms": 50.10609749979267,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "image_id": "layout09_light_diffuse",
+        "arrangement_id": "09",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 5,
+        "predicted_count": 4,
+        "true_count": 9,
+        "absolute_count_error": 5,
+        "exact_count": false,
+        "median_ms": 23.582323000027827,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "image_id": "layout09_light_dim",
+        "arrangement_id": "09",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 26.700613499997417,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          6
+        ]
+      },
+      {
+        "image_id": "layout09_light_directional",
+        "arrangement_id": "09",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 27.49064149975311,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout09_dark_diffuse",
+        "arrangement_id": "09",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "predicted_count": 0,
+        "true_count": 9,
+        "absolute_count_error": 9,
+        "exact_count": false,
+        "median_ms": 23.370175000309246,
+        "matches": [],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout09_dark_dim",
+        "arrangement_id": "09",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 7,
+        "true_count": 9,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 27.297583000290615,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          3,
+          8
+        ]
+      },
+      {
+        "image_id": "layout09_dark_directional",
+        "arrangement_id": "09",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 0,
+        "fn": 8,
+        "predicted_count": 1,
+        "true_count": 9,
+        "absolute_count_error": 8,
+        "exact_count": false,
+        "median_ms": 27.869124499829923,
+        "matches": [
+          [
+            0,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "image_id": "layout10_light_diffuse",
+        "arrangement_id": "10",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 5,
+        "predicted_count": 4,
+        "true_count": 9,
+        "absolute_count_error": 5,
+        "exact_count": false,
+        "median_ms": 25.091016499573016,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout10_light_dim",
+        "arrangement_id": "10",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 25.5671625004652,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          8
+        ]
+      },
+      {
+        "image_id": "layout10_light_directional",
+        "arrangement_id": "10",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 27.763279500049975,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout10_dark_diffuse",
+        "arrangement_id": "10",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 0,
+        "fn": 8,
+        "predicted_count": 1,
+        "true_count": 9,
+        "absolute_count_error": 8,
+        "exact_count": false,
+        "median_ms": 26.94707599994217,
+        "matches": [
+          [
+            0,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout10_dark_dim",
+        "arrangement_id": "10",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 6,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 6,
+        "true_count": 9,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 29.685741999855964,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "image_id": "layout10_dark_directional",
+        "arrangement_id": "10",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 0,
+        "fn": 8,
+        "predicted_count": 1,
+        "true_count": 9,
+        "absolute_count_error": 8,
+        "exact_count": false,
+        "median_ms": 29.285002499818802,
+        "matches": [
+          [
+            0,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout11_light_diffuse",
+        "arrangement_id": "11",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 5,
+        "fp": 0,
+        "fn": 4,
+        "predicted_count": 5,
+        "true_count": 9,
+        "absolute_count_error": 4,
+        "exact_count": false,
+        "median_ms": 24.94593950041235,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          3,
+          4,
+          6,
+          8
+        ]
+      },
+      {
+        "image_id": "layout11_light_dim",
+        "arrangement_id": "11",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 29.085794999900827,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout11_light_directional",
+        "arrangement_id": "11",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 30.018959500011988,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout11_dark_diffuse",
+        "arrangement_id": "11",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "predicted_count": 0,
+        "true_count": 9,
+        "absolute_count_error": 9,
+        "exact_count": false,
+        "median_ms": 25.63153999972201,
+        "matches": [],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout11_dark_dim",
+        "arrangement_id": "11",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 7,
+        "true_count": 9,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 28.0056685001,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          4,
+          7
+        ]
+      },
+      {
+        "image_id": "layout11_dark_directional",
+        "arrangement_id": "11",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "predicted_count": 0,
+        "true_count": 9,
+        "absolute_count_error": 9,
+        "exact_count": false,
+        "median_ms": 27.102001499770267,
+        "matches": [],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "summary": {
+      "status": "evaluated",
+      "n_images": 36,
+      "n_arrangements": 6,
+      "true_coins": 306,
+      "predicted_coins": 194,
+      "tp": 186,
+      "fp": 8,
+      "fn": 120,
+      "precision": 0.9587628865979382,
+      "recall": 0.6078431372549019,
+      "f1": 0.744,
+      "count_mae": 3.111111111111111,
+      "exact_count_accuracy": 0.25,
+      "median_ms": 36.978069999804575
+    },
+    "by_contact": {
+      "separated": {
+        "status": "evaluated",
+        "n_images": 36,
+        "n_arrangements": 6,
+        "true_coins": 306,
+        "predicted_coins": 194,
+        "tp": 186,
+        "fp": 8,
+        "fn": 120,
+        "precision": 0.9587628865979382,
+        "recall": 0.6078431372549019,
+        "f1": 0.744,
+        "count_mae": 3.111111111111111,
+        "exact_count_accuracy": 0.25,
+        "median_ms": 36.978069999804575
+      },
+      "touching": {
+        "status": "not_evaluated",
+        "n_images": 0,
+        "n_arrangements": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "count_mae": null,
+        "exact_count_accuracy": null,
+        "median_ms": null
+      }
+    },
+    "by_background_lighting": {
+      "dark_diffuse": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 18,
+        "tp": 18,
+        "fp": 0,
+        "fn": 33,
+        "precision": 1.0,
+        "recall": 0.35294117647058826,
+        "f1": 0.5217391304347826,
+        "count_mae": 5.5,
+        "exact_count_accuracy": 0.0,
+        "median_ms": 38.227753999990455
+      },
+      "dark_dim": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 42,
+        "tp": 42,
+        "fp": 0,
+        "fn": 9,
+        "precision": 1.0,
+        "recall": 0.8235294117647058,
+        "f1": 0.9032258064516129,
+        "count_mae": 1.5,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 39.18622000014693
+      },
+      "dark_directional": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 16,
+        "tp": 16,
+        "fp": 0,
+        "fn": 35,
+        "precision": 1.0,
+        "recall": 0.3137254901960784,
+        "f1": 0.47761194029850745,
+        "count_mae": 5.833333333333333,
+        "exact_count_accuracy": 0.0,
+        "median_ms": 39.20688974994846
+      },
+      "light_diffuse": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 31,
+        "tp": 31,
+        "fp": 0,
+        "fn": 20,
+        "precision": 1.0,
+        "recall": 0.6078431372549019,
+        "f1": 0.7560975609756098,
+        "count_mae": 3.3333333333333335,
+        "exact_count_accuracy": 0.0,
+        "median_ms": 35.35507999981746
+      },
+      "light_dim": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 49,
+        "tp": 49,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9607843137254902,
+        "f1": 0.98,
+        "count_mae": 0.3333333333333333,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 36.511487749748994
+      },
+      "light_directional": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 38,
+        "tp": 30,
+        "fp": 8,
+        "fn": 21,
+        "precision": 0.7894736842105263,
+        "recall": 0.5882352941176471,
+        "f1": 0.6741573033707865,
+        "count_mae": 2.1666666666666665,
+        "exact_count_accuracy": 0.5,
+        "median_ms": 37.499817750131115
+      }
+    },
+    "by_layout": {
+      "01": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 42,
+        "predicted_coins": 31,
+        "tp": 29,
+        "fp": 2,
+        "fn": 13,
+        "precision": 0.9354838709677419,
+        "recall": 0.6904761904761905,
+        "f1": 0.7945205479452054,
+        "count_mae": 1.8333333333333333,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 47.152920750249905
+      },
+      "03": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 30,
+        "predicted_coins": 21,
+        "tp": 20,
+        "fp": 1,
+        "fn": 10,
+        "precision": 0.9523809523809523,
+        "recall": 0.6666666666666666,
+        "f1": 0.7843137254901961,
+        "count_mae": 1.5,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 49.42796800037286
+      },
+      "04": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 72,
+        "predicted_coins": 54,
+        "tp": 49,
+        "fp": 5,
+        "fn": 23,
+        "precision": 0.9074074074074074,
+        "recall": 0.6805555555555556,
+        "f1": 0.7777777777777778,
+        "count_mae": 3.0,
+        "exact_count_accuracy": 0.16666666666666666,
+        "median_ms": 50.11750049970942
+      },
+      "09": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 29,
+        "tp": 29,
+        "fp": 0,
+        "fn": 25,
+        "precision": 1.0,
+        "recall": 0.5370370370370371,
+        "f1": 0.6987951807228916,
+        "count_mae": 4.166666666666667,
+        "exact_count_accuracy": 0.16666666666666666,
+        "median_ms": 26.999098250144016
+      },
+      "10": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 29,
+        "tp": 29,
+        "fp": 0,
+        "fn": 25,
+        "precision": 1.0,
+        "recall": 0.5370370370370371,
+        "f1": 0.6987951807228916,
+        "count_mae": 4.166666666666667,
+        "exact_count_accuracy": 0.16666666666666666,
+        "median_ms": 27.355177749996074
+      },
+      "11": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 30,
+        "tp": 30,
+        "fp": 0,
+        "fn": 24,
+        "precision": 1.0,
+        "recall": 0.5555555555555556,
+        "f1": 0.7142857142857143,
+        "count_mae": 4.0,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 27.553834999935134
+      }
+    },
+    "by_capture_group": {
+      "layouts01-04": {
+        "status": "evaluated",
+        "n_images": 18,
+        "n_arrangements": 3,
+        "true_coins": 144,
+        "predicted_coins": 106,
+        "tp": 98,
+        "fp": 8,
+        "fn": 46,
+        "precision": 0.9245283018867925,
+        "recall": 0.6805555555555556,
+        "f1": 0.784,
+        "count_mae": 2.111111111111111,
+        "exact_count_accuracy": 0.2777777777777778,
+        "median_ms": 49.51459225026156
+      },
+      "layouts09-12": {
+        "status": "evaluated",
+        "n_images": 18,
+        "n_arrangements": 3,
+        "true_coins": 162,
+        "predicted_coins": 88,
+        "tp": 88,
+        "fp": 0,
+        "fn": 74,
+        "precision": 1.0,
+        "recall": 0.5432098765432098,
+        "f1": 0.704,
+        "count_mae": 4.111111111111111,
+        "exact_count_accuracy": 0.2222222222222222,
+        "median_ms": 27.19979225003044
+      }
+    },
+    "metric_notes": "Micro detection scores use summed TP/FP/FN. Undefined ratios in evaluated groups are 0. Absent groups are null/not_evaluated. Exact count can hide cancelling detection errors."
+  }
+}

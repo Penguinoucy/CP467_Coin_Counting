@@ -1,0 +1,17 @@
+{
+  "examples": [
+    "layout03_dark_directional",
+    "layout10_dark_diffuse"
+  ],
+  "panels": 8,
+  "selection_rule": "Maximum development Hough-on FP count within each capture group, image_id tie-break",
+  "true_counts": [
+    5,
+    9
+  ],
+  "legend": {
+    "green": "matched detection",
+    "red": "unmatched prediction",
+    "cyan_dashed": "missed ground truth"
+  }
+}

@@ -1,35 +1,19 @@
-# Files each role must complete
-Owners remain unassigned until the group chooses them.
+# Work completed and human contributions still needed
 
-| Role | Files or folders | Required contribution |
+Owners remain unassigned. This implementation was produced with coding assistance from the
+supplied project snapshot and annotations. Do not attribute its implementation or measurements
+to a group member who has not done and reviewed that work. The group must confirm actual roles.
+
+| Role | Implemented in this delivery | Contribution still required |
 |---|---|---|
-| 1 Photos and labels | data/images/ | Add the 240 actual photos with filenames matching the manifest. |
-| 1 | data/manifest.csv | Verify planned conditions, actual paths, layout IDs, and fixed 28/4/8 split. |
-| 1 | data/labels/*.json | Fill all 240 templates with centres/radii, dimensions, counts, annotator/reviewer, and honest status. |
-| 1 | data/capture_log.json; docs/capture_guide.md | Record the actual setup and collection procedure; coordinate shared work. |
-| 1 | data/raw_annotations/ | Add original annotation-tool exports if used; implement a converter if required. |
-| 1 | reports/sections/role_1.md | Write actual data progress, procedure, and limitations. |
-| 2 Circle method | detectors/hough.py; configs/hough.json | Implement detect(), add and justify settings, then mark implementation_ready true. |
-| 2 | references/hough.md; references/clahe.md; reports/sections/role_2.md | Supply full sources, method description, examples, and failures. |
-| 3 Background method | detectors/contours.py; configs/contours.json | Implement segmentation, cleanup, filtering, and moment centroids; configure and mark ready. |
-| 3 | references/contours.md; references/clahe.md; reports/sections/role_3.md | Supply sources, masks/outlines, method text, and failures. |
-| 4 Evaluation | evaluation/matching.py; evaluation/metrics.py; evaluation/plots.py; evaluation/README.md | Implement and check matching/metrics, document fields, and plot four comparable configurations. |
-| 4 | reports/sections/role_4.md | Supply real accuracy tables, separate contact results, failure analysis, and sample-size limitations. |
-| 5 Integration | run.py; evaluate.py; scripts/run_all.py; README.md | Review supplied orchestration against actual member code, connect components, and check a clean setup. |
-| 5 | requirements.txt; docs/hardware.json; docs/experiment_log.md | Freeze tested versions and record actual machine, runs, timings, and commit IDs. |
-| 5 | docs/demo_checklist.md; references/tools.md; reports/sections/role_5.md | Prepare the demo, tool citations, integration write-up, and timing results. |
-| All; coordinated by 5 | configs/common.json | Agree on common CLAHE settings/placement and shared timing repetitions. |
-| All; coordinated by 5 | configs/final_test_approval.json | Confirm frozen settings and test-set isolation truthfully before final testing. |
-| All; assembled by 5 | reports/progress_report.md; reports/final_report.md; reports/presentation_outline.md; reports/figures/ | Replace prompts with each member's actual contributions and measured figures. |
+| 1 Photos and labels | Converted 48 VIA exports; retained originals (192 unfinished templates omitted from this handoff); preserved split; inventory hashes | Collect remaining 192 photos; record actual capture procedure and annotators; independently review labels; verify manifest |
+| 2 Circle method | Working Hough detector, development parameter search, both CLAHE variants, saved evidence | Review and understand code/settings; interpret failures; write actual role contribution and demo explanation |
+| 3 Background method | Working Otsu/morphology/contour detector, automatic polarity, settings, masks and both CLAHE variants | Review method and failure masks; justify future improvements using development data; write actual contribution |
+| 4 Evaluation | One-to-one matching, TP/FP/FN, count metrics, CSVs, plots, capture/contact/condition breakdowns and tests | Check provisional labels/results; interpret uncertainty; evaluate touching and final-test data when ready |
+| 5 Integration | CLI runners/evaluator, version pins, experiment records, automation, report PDF builder and draft | Reproduce on group computer, merge reviewed changes, verify private repository access, assemble members' sections and demo |
+| All | Five-page main report draft plus references based on measured pilot | Confirm names, actual ownership, contributions, capture facts, remaining schedule and submission claims |
 
-## Shared collection duties
-Each person contributes eight layouts (six separated and two touching), labels their photos,
-and reviews another member's labels. Role 1 coordinates; Role 5 assembles each member's
-finished report section. Roles 2 and 3 retain ownership of fixing their detector code.
-
-## Supplied infrastructure
-The manifest, 240 empty label templates, runners, shared helpers, setup/data checks,
-and mock integration tests are supplied. No real photos, annotations, working detectors,
-matching algorithm, accuracy measurements, or report findings are supplied.
-Do not replace your own existing requirements.txt with this starter list if it already
-records tested versions. Merge the actual dependencies and freeze your environment.
+`reports/sections/role_1.md` through `role_5.md` remain human contribution templates.
+`data/capture_log.json` remains a template because collection details were not supplied.
+The final report and presentation outline remain templates for later project completion.
+No labels were marked reviewed and no final-test approval was granted.

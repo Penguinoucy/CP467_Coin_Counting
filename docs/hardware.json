@@ -1,8 +1,19 @@
 {
-  "computer_name": null,
-  "operating_system": null,
-  "cpu": null,
-  "ram_gb": null,
-  "python_version": null,
-  "notes": "Role 5 records the computer used for all timing comparisons."
+  "computer_name": "Codex execution environment (not the user Mac)",
+  "operating_system": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpus_visible": 9,
+  "ram_gb_visible_to_environment": 9.73,
+  "python_version": "3.12.14",
+  "opencv_threads": 1,
+  "versions": {
+    "numpy": "2.3.5",
+    "opencv-python-headless": "5.1.0.95",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "Pillow": "13.0.0",
+    "reportlab": "4.4.9",
+    "PyMuPDF": "1.26.6"
+  },
+  "notes": "Timings from this environment only; re-run on one group laptop before claiming Mac speed."
 }

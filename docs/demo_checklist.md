@@ -1,9 +1,10 @@
-# Role 5 demo checklist
-- [ ] Install from requirements.txt in a clean environment on another member's computer.
-- [ ] Verify actual images and reviewed labels exist.
-- [ ] Run and evaluate all four configurations on identical photo lists.
-- [ ] Pick easy, shadowed, touching, and failure examples; show correct and predicted counts.
-- [ ] Explain development examples versus held-out final-test evidence.
-- [ ] Save figures and backup results for a live-demo failure.
-- [ ] Each member supplies and checks their own report section and presentation content.
-- [ ] Record real hardware, versions, settings, and timings.
+# Demo checklist
+- [x] All four configurations run on identical available photo lists within each split.
+- [x] Real per-image results, marked images, plots and backup tables saved.
+- [x] Hardware, versions, timings, settings and development/validation distinction recorded.
+- [ ] Reproduce from requirements.txt on another member's computer.
+- [ ] Independently review labels and record actual annotators/reviewers.
+- [ ] Explain the chosen success/failure examples and segmentation masks.
+- [ ] Add touching examples when collected; none are available in this pilot.
+- [ ] Confirm members' actual report contributions and rehearse the live demo.
+- [ ] Verify instructor/TA repository access and merge reviewed changes.

@@ -1,1 +1,38 @@
-{"layout03_dark_directional.jpg3460826":{"filename":"layout03_dark_directional.jpg","size":3460826,"regions":[{"shape_attributes":{"name":"circle","cx":1405,"cy":2643,"r":184},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":628,"cy":2831,"r":118},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2430,"cy":1669,"r":116},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1173,"cy":1332,"r":156},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":858,"cy":1073,"r":132.311},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout03_dark_directional",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 3024,
+  "image_height": 4032,
+  "coin_count": 5,
+  "coins": [
+    {
+      "x": 1405,
+      "y": 2643,
+      "radius": 184
+    },
+    {
+      "x": 628,
+      "y": 2831,
+      "radius": 118
+    },
+    {
+      "x": 2430,
+      "y": 1669,
+      "radius": 116
+    },
+    {
+      "x": 1173,
+      "y": 1332,
+      "radius": 156
+    },
+    {
+      "x": 858,
+      "y": 1073,
+      "radius": 132.311
+    }
+  ],
+  "notes": "Converted from VIA export layout03_dark_directional.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

@@ -1,6 +1,4 @@
-# References for Otsu thresholding, contour detection, and morphological operations
-Status: Needs contributions
-For each source add author or organization, title, year or version when available,
-publication or documentation name, full URL, and access date for web documentation.
-Explain briefly which part of the project used the source. Verify the link.
-[Insert complete references.]
+# Contours sources
+
+See REFERENCES.md for complete primary-source citations and URLs.
+The implemented methods and report cite those numbered references.

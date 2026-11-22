@@ -1,1 +1,73 @@
-{"layout04_light_dim.jpg1256576":{"filename":"layout04_light_dim.jpg","size":1256576,"regions":[{"shape_attributes":{"name":"circle","cx":656,"cy":3052,"r":209},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2561,"cy":3085,"r":207.345},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":644,"cy":2622,"r":156},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1278,"cy":2396,"r":180},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1724,"cy":2622,"r":180},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2127,"cy":2792,"r":190},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2710,"cy":2132,"r":145},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":539,"cy":1818,"r":165},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":926,"cy":1752,"r":154.622},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1383,"cy":1609,"r":206},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1835,"cy":1228,"r":182},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2225,"cy":545,"r":150},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout04_light_dim",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 3024,
+  "image_height": 4032,
+  "coin_count": 12,
+  "coins": [
+    {
+      "x": 656,
+      "y": 3052,
+      "radius": 209
+    },
+    {
+      "x": 2561,
+      "y": 3085,
+      "radius": 207.345
+    },
+    {
+      "x": 644,
+      "y": 2622,
+      "radius": 156
+    },
+    {
+      "x": 1278,
+      "y": 2396,
+      "radius": 180
+    },
+    {
+      "x": 1724,
+      "y": 2622,
+      "radius": 180
+    },
+    {
+      "x": 2127,
+      "y": 2792,
+      "radius": 190
+    },
+    {
+      "x": 2710,
+      "y": 2132,
+      "radius": 145
+    },
+    {
+      "x": 539,
+      "y": 1818,
+      "radius": 165
+    },
+    {
+      "x": 926,
+      "y": 1752,
+      "radius": 154.622
+    },
+    {
+      "x": 1383,
+      "y": 1609,
+      "radius": 206
+    },
+    {
+      "x": 1835,
+      "y": 1228,
+      "radius": 182
+    },
+    {
+      "x": 2225,
+      "y": 545,
+      "radius": 150
+    }
+  ],
+  "notes": "Converted from VIA export layout04_light_dim.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

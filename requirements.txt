@@ -1,5 +1,8 @@
-# Starter package list. Role 5 replaces this with pip freeze after checking a clean environment.
-opencv-python
-numpy
-pandas
-matplotlib
+# Tested with Python 3.12.14 on Linux. Headless OpenCV supports saved-image demos.
+numpy==2.3.5
+opencv-python-headless==5.1.0.95
+scipy==1.17.0
+matplotlib==3.10.8
+Pillow==13.0.0
+reportlab==4.4.9
+PyMuPDF==1.26.6

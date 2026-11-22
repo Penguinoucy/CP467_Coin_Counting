@@ -1,0 +1,17 @@
+split,method,clahe,annotation_review,contact,status,n_images,n_arrangements,true_coins,predicted_coins,tp,fp,fn,precision,recall,f1,count_mae,exact_count_accuracy,median_ms
+development,hough,off,provisional_unreviewed,separated,evaluated,36,6,306,295,293,2,13,0.9932203389830508,0.9575163398692811,0.9750415973377704,0.4166666666666667,0.75,52.254327499895226
+development,hough,off,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+development,hough,on,provisional_unreviewed,separated,evaluated,36,6,306,397,300,97,6,0.7556675062972292,0.9803921568627451,0.8534850640113798,2.861111111111111,0.7777777777777778,71.43929825019768
+development,hough,on,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+development,contours,off,provisional_unreviewed,separated,evaluated,36,6,306,194,186,8,120,0.9587628865979382,0.6078431372549019,0.744,3.111111111111111,0.25,36.978069999804575
+development,contours,off,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+development,contours,on,provisional_unreviewed,separated,evaluated,36,6,306,223,207,16,99,0.9282511210762332,0.6764705882352942,0.782608695652174,2.3055555555555554,0.3055555555555556,41.656107500102735
+development,contours,on,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+validation,hough,off,provisional_unreviewed,separated,evaluated,12,2,114,109,108,1,6,0.9908256880733946,0.9473684210526315,0.968609865470852,0.5833333333333334,0.6666666666666666,55.32774850007627
+validation,hough,off,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+validation,hough,on,provisional_unreviewed,separated,evaluated,12,2,114,130,109,21,5,0.8384615384615385,0.956140350877193,0.8934426229508197,2.1666666666666665,0.6666666666666666,64.62162925004122
+validation,hough,on,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+validation,contours,off,provisional_unreviewed,separated,evaluated,12,2,114,86,82,4,32,0.9534883720930233,0.7192982456140351,0.82,2.3333333333333335,0.3333333333333333,40.146914750039286
+validation,contours,off,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,
+validation,contours,on,provisional_unreviewed,separated,evaluated,12,2,114,90,83,7,31,0.9222222222222223,0.7280701754385965,0.8137254901960784,2.0,0.4166666666666667,44.40439300014987
+validation,contours,on,provisional_unreviewed,touching,not_evaluated,0,0,,,,,,,,,,,

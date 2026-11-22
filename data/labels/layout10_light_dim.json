@@ -1,90 +1,58 @@
 {
-    "layout10_light_dim.jpg356208": {
-        "filename": "layout10_light_dim.jpg",
-        "size": 356208,
-        "regions": [
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 296,
-                    "cy": 281,
-                    "r": 140
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 783,
-                    "cy": 265,
-                    "r": 160
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1283,
-                    "cy": 269,
-                    "r": 169
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1748,
-                    "cy": 290,
-                    "r": 181
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1759,
-                    "cy": 921,
-                    "r": 209
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1733,
-                    "cy": 1490,
-                    "r": 207.947
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1191,
-                    "cy": 1511,
-                    "r": 160
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 687,
-                    "cy": 1490,
-                    "r": 175
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 221,
-                    "cy": 1475,
-                    "r": 199.054
-                },
-                "region_attributes": {}
-            }
-        ],
-        "file_attributes": {}
+  "image_id": "layout10_light_dim",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 2089,
+  "image_height": 1865,
+  "coin_count": 9,
+  "coins": [
+    {
+      "x": 296,
+      "y": 281,
+      "radius": 140
+    },
+    {
+      "x": 783,
+      "y": 265,
+      "radius": 160
+    },
+    {
+      "x": 1283,
+      "y": 269,
+      "radius": 169
+    },
+    {
+      "x": 1748,
+      "y": 290,
+      "radius": 181
+    },
+    {
+      "x": 1759,
+      "y": 921,
+      "radius": 209
+    },
+    {
+      "x": 1733,
+      "y": 1490,
+      "radius": 207.947
+    },
+    {
+      "x": 1191,
+      "y": 1511,
+      "radius": 160
+    },
+    {
+      "x": 687,
+      "y": 1490,
+      "radius": 175
+    },
+    {
+      "x": 221,
+      "y": 1475,
+      "radius": 199.054
     }
+  ],
+  "notes": "Converted from VIA export layout10_light_dim.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
 }

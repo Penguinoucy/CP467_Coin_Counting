@@ -1,0 +1,1944 @@
+{
+  "status": "completed",
+  "method": "contours",
+  "clahe": true,
+  "split": "development",
+  "pilot_run": true,
+  "annotation_review": "provisional_unreviewed",
+  "review_disclosure": "Scores use supplied VIA annotations; original annotator names and independent review pending.",
+  "results": {
+    "per_image": [
+      {
+        "image_id": "layout01_light_diffuse",
+        "arrangement_id": "01",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 6,
+        "true_count": 7,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 51.816429500377126,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          5
+        ]
+      },
+      {
+        "image_id": "layout01_light_dim",
+        "arrangement_id": "01",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 7,
+        "true_count": 7,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 48.2152535005298,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout01_light_directional",
+        "arrangement_id": "01",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 6,
+        "fn": 6,
+        "predicted_count": 7,
+        "true_count": 7,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 49.62435950028521,
+        "matches": [
+          [
+            6,
+            1
+          ]
+        ],
+        "unmatched_predictions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "unmatched_labels": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "image_id": "layout01_dark_diffuse",
+        "arrangement_id": "01",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 7,
+        "true_count": 7,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 58.18383399991944,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout01_dark_dim",
+        "arrangement_id": "01",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 7,
+        "true_count": 7,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 53.197591999833094,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout01_dark_directional",
+        "arrangement_id": "01",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 4,
+        "true_count": 7,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 54.54446649991951,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "image_id": "layout03_light_diffuse",
+        "arrangement_id": "03",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 3,
+        "true_count": 5,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 53.33445349970134,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1
+        ]
+      },
+      {
+        "image_id": "layout03_light_dim",
+        "arrangement_id": "03",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 5,
+        "true_count": 5,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 53.41825699997571,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout03_light_directional",
+        "arrangement_id": "03",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 0,
+        "fp": 2,
+        "fn": 5,
+        "predicted_count": 2,
+        "true_count": 5,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 53.93824299972039,
+        "matches": [],
+        "unmatched_predictions": [
+          0,
+          1
+        ],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "image_id": "layout03_dark_diffuse",
+        "arrangement_id": "03",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 4,
+        "true_count": 5,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 58.57202100014547,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0
+        ]
+      },
+      {
+        "image_id": "layout03_dark_dim",
+        "arrangement_id": "03",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 5,
+        "true_count": 5,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 55.664407499989466,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout03_dark_directional",
+        "arrangement_id": "03",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 3,
+        "true_count": 5,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 56.678080999972735,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1
+        ]
+      },
+      {
+        "image_id": "layout04_light_diffuse",
+        "arrangement_id": "04",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 9,
+        "true_count": 12,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 54.31727150016741,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "image_id": "layout04_light_dim",
+        "arrangement_id": "04",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 10,
+        "true_count": 12,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 54.167446000064956,
+        "matches": [
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          6,
+          11
+        ]
+      },
+      {
+        "image_id": "layout04_light_directional",
+        "arrangement_id": "04",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 8,
+        "fn": 9,
+        "predicted_count": 11,
+        "true_count": 12,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 54.409074000432156,
+        "matches": [
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            10,
+            5
+          ]
+        ],
+        "unmatched_predictions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9
+        ],
+        "unmatched_labels": [
+          0,
+          1,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "image_id": "layout04_dark_diffuse",
+        "arrangement_id": "04",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 12,
+        "true_count": 12,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 53.172673000517534,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout04_dark_dim",
+        "arrangement_id": "04",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 10,
+        "true_count": 12,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 54.36371750010949,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          7
+        ]
+      },
+      {
+        "image_id": "layout04_dark_directional",
+        "arrangement_id": "04",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 5,
+        "predicted_count": 7,
+        "true_count": 12,
+        "absolute_count_error": 5,
+        "exact_count": false,
+        "median_ms": 55.1200320001044,
+        "matches": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "image_id": "layout09_light_diffuse",
+        "arrangement_id": "09",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 6,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 6,
+        "true_count": 9,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 27.82292599977154,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "image_id": "layout09_light_dim",
+        "arrangement_id": "09",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 30.908822499895905,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          6
+        ]
+      },
+      {
+        "image_id": "layout09_light_directional",
+        "arrangement_id": "09",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 31.70118050002202,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout09_dark_diffuse",
+        "arrangement_id": "09",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 3,
+        "fp": 0,
+        "fn": 6,
+        "predicted_count": 3,
+        "true_count": 9,
+        "absolute_count_error": 6,
+        "exact_count": false,
+        "median_ms": 28.563717499764607,
+        "matches": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout09_dark_dim",
+        "arrangement_id": "09",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 32.74699599978703,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          3
+        ]
+      },
+      {
+        "image_id": "layout09_dark_directional",
+        "arrangement_id": "09",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 2,
+        "fp": 0,
+        "fn": 7,
+        "predicted_count": 2,
+        "true_count": 9,
+        "absolute_count_error": 7,
+        "exact_count": false,
+        "median_ms": 32.57856349955546,
+        "matches": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "image_id": "layout10_light_diffuse",
+        "arrangement_id": "10",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 5,
+        "predicted_count": 4,
+        "true_count": 9,
+        "absolute_count_error": 5,
+        "exact_count": false,
+        "median_ms": 30.323900999974285,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          1,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout10_light_dim",
+        "arrangement_id": "10",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 30.818969999927504,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          8
+        ]
+      },
+      {
+        "image_id": "layout10_light_directional",
+        "arrangement_id": "10",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 33.24122450021605,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout10_dark_diffuse",
+        "arrangement_id": "10",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 0,
+        "fn": 8,
+        "predicted_count": 1,
+        "true_count": 9,
+        "absolute_count_error": 8,
+        "exact_count": false,
+        "median_ms": 33.206057499683084,
+        "matches": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout10_dark_dim",
+        "arrangement_id": "10",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 7,
+        "true_count": 9,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 35.08382649988562,
+        "matches": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          4,
+          5
+        ]
+      },
+      {
+        "image_id": "layout10_dark_directional",
+        "arrangement_id": "10",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 4,
+        "fp": 0,
+        "fn": 5,
+        "predicted_count": 4,
+        "true_count": 9,
+        "absolute_count_error": 5,
+        "exact_count": false,
+        "median_ms": 35.003222999876016,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          3,
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "image_id": "layout11_light_diffuse",
+        "arrangement_id": "11",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 6,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 6,
+        "true_count": 9,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 30.075898000177403,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "image_id": "layout11_light_dim",
+        "arrangement_id": "11",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 33.596416000364115,
+        "matches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          5
+        ]
+      },
+      {
+        "image_id": "layout11_light_directional",
+        "arrangement_id": "11",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 35.09696149967567,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout11_dark_diffuse",
+        "arrangement_id": "11",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 2,
+        "fp": 0,
+        "fn": 7,
+        "predicted_count": 2,
+        "true_count": 9,
+        "absolute_count_error": 7,
+        "exact_count": false,
+        "median_ms": 30.084511000040948,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "image_id": "layout11_dark_dim",
+        "arrangement_id": "11",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 31.78714450041298,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout11_dark_directional",
+        "arrangement_id": "11",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 1,
+        "fp": 0,
+        "fn": 8,
+        "predicted_count": 1,
+        "true_count": 9,
+        "absolute_count_error": 8,
+        "exact_count": false,
+        "median_ms": 31.901247999940097,
+        "matches": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "summary": {
+      "status": "evaluated",
+      "n_images": 36,
+      "n_arrangements": 6,
+      "true_coins": 306,
+      "predicted_coins": 223,
+      "tp": 207,
+      "fp": 16,
+      "fn": 99,
+      "precision": 0.9282511210762332,
+      "recall": 0.6764705882352942,
+      "f1": 0.782608695652174,
+      "count_mae": 2.3055555555555554,
+      "exact_count_accuracy": 0.3055555555555556,
+      "median_ms": 41.656107500102735
+    },
+    "by_contact": {
+      "separated": {
+        "status": "evaluated",
+        "n_images": 36,
+        "n_arrangements": 6,
+        "true_coins": 306,
+        "predicted_coins": 223,
+        "tp": 207,
+        "fp": 16,
+        "fn": 99,
+        "precision": 0.9282511210762332,
+        "recall": 0.6764705882352942,
+        "f1": 0.782608695652174,
+        "count_mae": 2.3055555555555554,
+        "exact_count_accuracy": 0.3055555555555556,
+        "median_ms": 41.656107500102735
+      },
+      "touching": {
+        "status": "not_evaluated",
+        "n_images": 0,
+        "n_arrangements": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "count_mae": null,
+        "exact_count_accuracy": null,
+        "median_ms": null
+      }
+    },
+    "by_background_lighting": {
+      "dark_diffuse": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 29,
+        "tp": 29,
+        "fp": 0,
+        "fn": 22,
+        "precision": 1.0,
+        "recall": 0.5686274509803921,
+        "f1": 0.725,
+        "count_mae": 3.6666666666666665,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 43.18936525010031
+      },
+      "dark_dim": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 46,
+        "tp": 46,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.9019607843137255,
+        "f1": 0.9484536082474226,
+        "count_mae": 0.8333333333333334,
+        "exact_count_accuracy": 0.5,
+        "median_ms": 44.140709249859356
+      },
+      "dark_directional": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 21,
+        "tp": 21,
+        "fp": 0,
+        "fn": 30,
+        "precision": 1.0,
+        "recall": 0.4117647058823529,
+        "f1": 0.5833333333333334,
+        "count_mae": 5.0,
+        "exact_count_accuracy": 0.0,
+        "median_ms": 44.77384474989776
+      },
+      "light_diffuse": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 34,
+        "tp": 34,
+        "fp": 0,
+        "fn": 17,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "count_mae": 2.8333333333333335,
+        "exact_count_accuracy": 0.0,
+        "median_ms": 41.070165250175705
+      },
+      "light_dim": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 46,
+        "tp": 46,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.9019607843137255,
+        "f1": 0.9484536082474226,
+        "count_mae": 0.8333333333333334,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 40.90583475044696
+      },
+      "light_directional": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 6,
+        "true_coins": 51,
+        "predicted_coins": 47,
+        "tp": 31,
+        "fp": 16,
+        "fn": 20,
+        "precision": 0.6595744680851063,
+        "recall": 0.6078431372549019,
+        "f1": 0.6326530612244898,
+        "count_mae": 0.6666666666666666,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 42.36066049998044
+      }
+    },
+    "by_layout": {
+      "01": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 42,
+        "predicted_coins": 38,
+        "tp": 32,
+        "fp": 6,
+        "fn": 10,
+        "precision": 0.8421052631578947,
+        "recall": 0.7619047619047619,
+        "f1": 0.8,
+        "count_mae": 0.6666666666666666,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 52.50701075010511
+      },
+      "03": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 30,
+        "predicted_coins": 22,
+        "tp": 20,
+        "fp": 2,
+        "fn": 10,
+        "precision": 0.9090909090909091,
+        "recall": 0.6666666666666666,
+        "f1": 0.7692307692307693,
+        "count_mae": 1.3333333333333333,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 54.801325249854926
+      },
+      "04": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 72,
+        "predicted_coins": 59,
+        "tp": 51,
+        "fp": 8,
+        "fn": 21,
+        "precision": 0.864406779661017,
+        "recall": 0.7083333333333334,
+        "f1": 0.7786259541984732,
+        "count_mae": 2.1666666666666665,
+        "exact_count_accuracy": 0.16666666666666666,
+        "median_ms": 54.34049450013845
+      },
+      "09": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 36,
+        "tp": 36,
+        "fp": 0,
+        "fn": 18,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "count_mae": 3.0,
+        "exact_count_accuracy": 0.16666666666666666,
+        "median_ms": 31.305001499958962
+      },
+      "10": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 33,
+        "tp": 33,
+        "fp": 0,
+        "fn": 21,
+        "precision": 1.0,
+        "recall": 0.6111111111111112,
+        "f1": 0.7586206896551724,
+        "count_mae": 3.5,
+        "exact_count_accuracy": 0.16666666666666666,
+        "median_ms": 33.223640999949566
+      },
+      "11": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 35,
+        "tp": 35,
+        "fp": 0,
+        "fn": 19,
+        "precision": 1.0,
+        "recall": 0.6481481481481481,
+        "f1": 0.7865168539325843,
+        "count_mae": 3.1666666666666665,
+        "exact_count_accuracy": 0.3333333333333333,
+        "median_ms": 31.844196250176537
+      }
+    },
+    "by_capture_group": {
+      "layouts01-04": {
+        "status": "evaluated",
+        "n_images": 18,
+        "n_arrangements": 3,
+        "true_coins": 144,
+        "predicted_coins": 119,
+        "tp": 103,
+        "fp": 16,
+        "fn": 41,
+        "precision": 0.865546218487395,
+        "recall": 0.7152777777777778,
+        "f1": 0.7832699619771863,
+        "count_mae": 1.3888888888888888,
+        "exact_count_accuracy": 0.3888888888888889,
+        "median_ms": 54.24235875011618
+      },
+      "layouts09-12": {
+        "status": "evaluated",
+        "n_images": 18,
+        "n_arrangements": 3,
+        "true_coins": 162,
+        "predicted_coins": 104,
+        "tp": 104,
+        "fp": 0,
+        "fn": 58,
+        "precision": 1.0,
+        "recall": 0.6419753086419753,
+        "f1": 0.7819548872180451,
+        "count_mae": 3.2222222222222223,
+        "exact_count_accuracy": 0.2222222222222222,
+        "median_ms": 31.844196250176537
+      }
+    },
+    "metric_notes": "Micro detection scores use summed TP/FP/FN. Undefined ratios in evaluated groups are 0. Absent groups are null/not_evaluated. Exact count can hide cancelling detection errors."
+  }
+}

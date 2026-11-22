@@ -1,90 +1,58 @@
 {
-    "layout10_light_diffuse.jpg454562": {
-        "filename": "layout10_light_diffuse.jpg",
-        "size": 454562,
-        "regions": [
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 288,
-                    "cy": 336,
-                    "r": 132
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 749,
-                    "cy": 315,
-                    "r": 158.084
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1227,
-                    "cy": 313,
-                    "r": 168
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1675,
-                    "cy": 313,
-                    "r": 173
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1677,
-                    "cy": 915,
-                    "r": 204
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1658,
-                    "cy": 1461,
-                    "r": 201.501
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 1139,
-                    "cy": 1499,
-                    "r": 151
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 662,
-                    "cy": 1478,
-                    "r": 162
-                },
-                "region_attributes": {}
-            },
-            {
-                "shape_attributes": {
-                    "name": "circle",
-                    "cx": 225,
-                    "cy": 1479,
-                    "r": 186.905
-                },
-                "region_attributes": {}
-            }
-        ],
-        "file_attributes": {}
+  "image_id": "layout10_light_diffuse",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 2005,
+  "image_height": 1829,
+  "coin_count": 9,
+  "coins": [
+    {
+      "x": 288,
+      "y": 336,
+      "radius": 132
+    },
+    {
+      "x": 749,
+      "y": 315,
+      "radius": 158.084
+    },
+    {
+      "x": 1227,
+      "y": 313,
+      "radius": 168
+    },
+    {
+      "x": 1675,
+      "y": 313,
+      "radius": 173
+    },
+    {
+      "x": 1677,
+      "y": 915,
+      "radius": 204
+    },
+    {
+      "x": 1658,
+      "y": 1461,
+      "radius": 201.501
+    },
+    {
+      "x": 1139,
+      "y": 1499,
+      "radius": 151
+    },
+    {
+      "x": 662,
+      "y": 1478,
+      "radius": 162
+    },
+    {
+      "x": 225,
+      "y": 1479,
+      "radius": 186.905
     }
+  ],
+  "notes": "Converted from VIA export layout10_light_diffuse.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
 }

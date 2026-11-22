@@ -22,7 +22,7 @@ class InfrastructureTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix='cp467_test_', dir=ROOT.parent)
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name) / 'project'
-        shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns('__pycache__', '.venv'))
+        shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns('__pycache__', '.venv', '*.jpg', '*.jpeg', '*.png'))
 
     def run_command(self, *args, env=None):
         return subprocess.run([sys.executable, *args], cwd=self.root, env=env,
@@ -69,6 +69,9 @@ class InfrastructureTests(unittest.TestCase):
         self.assertIn('reviewed labels ready: 0/240', result.stdout)
 
     def test_unfinished_detector_is_not_treated_as_zero_coins(self):
+        path = self.root / 'configs/hough.json'
+        config = json.loads(path.read_text()); config['implementation_ready'] = False
+        path.write_text(json.dumps(config))
         result = self.run_command('run.py', '--method', 'hough', '--split', 'development',
                                   '--clahe', 'off', '--output', 'outputs/test')
         self.assertEqual(result.returncode, 2)

@@ -1,1 +1,48 @@
-{"layout01_light_directional.jpg1692467":{"filename":"layout01_light_directional.jpg","size":1692467,"regions":[{"shape_attributes":{"name":"circle","cx":573,"cy":2044,"r":192},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":499,"cy":3131,"r":125.044},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1825,"cy":2343,"r":154},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2478,"cy":3041,"r":135},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2368,"cy":1092,"r":174.576},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":628,"cy":803,"r":167},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1745,"cy":399,"r":151},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout01_light_directional",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 2817,
+  "image_height": 3652,
+  "coin_count": 7,
+  "coins": [
+    {
+      "x": 573,
+      "y": 2044,
+      "radius": 192
+    },
+    {
+      "x": 499,
+      "y": 3131,
+      "radius": 125.044
+    },
+    {
+      "x": 1825,
+      "y": 2343,
+      "radius": 154
+    },
+    {
+      "x": 2478,
+      "y": 3041,
+      "radius": 135
+    },
+    {
+      "x": 2368,
+      "y": 1092,
+      "radius": 174.576
+    },
+    {
+      "x": 628,
+      "y": 803,
+      "radius": 167
+    },
+    {
+      "x": 1745,
+      "y": 399,
+      "radius": 151
+    }
+  ],
+  "notes": "Converted from VIA export layout01_light_directional.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

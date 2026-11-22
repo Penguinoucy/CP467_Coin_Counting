@@ -1,1 +1,38 @@
-{"layout03_light_diffuse.jpg1986828":{"filename":"layout03_light_diffuse.jpg","size":1986828,"regions":[{"shape_attributes":{"name":"circle","cx":1674,"cy":2764,"r":209},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":661,"cy":2936,"r":138},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2628,"cy":1460,"r":141},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1250,"cy":1030,"r":180},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":848,"cy":771,"r":168},"region_attributes":{}}],"file_attributes":{}}}
+{
+  "image_id": "layout03_light_diffuse",
+  "annotation_status": "complete",
+  "review_status": "not_reviewed",
+  "annotator": null,
+  "reviewer": null,
+  "image_width": 3024,
+  "image_height": 4032,
+  "coin_count": 5,
+  "coins": [
+    {
+      "x": 1674,
+      "y": 2764,
+      "radius": 209
+    },
+    {
+      "x": 661,
+      "y": 2936,
+      "radius": 138
+    },
+    {
+      "x": 2628,
+      "y": 1460,
+      "radius": 141
+    },
+    {
+      "x": 1250,
+      "y": 1030,
+      "radius": 180
+    },
+    {
+      "x": 848,
+      "y": 771,
+      "radius": 168
+    }
+  ],
+  "notes": "Converted from VIA export layout03_light_diffuse.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+}

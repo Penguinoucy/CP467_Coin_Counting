@@ -11,6 +11,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--predictions",required=True)
     p.add_argument("--output",required=True)
+    p.add_argument("--allow-unreviewed-labels",action="store_true",help="Explicit provisional scoring; human review pending")
     args=p.parse_args()
     if metrics.IMPLEMENTATION_READY is not True:
         raise ValueError("Role 4 must complete evaluation/metrics.py and matching.py first")
@@ -26,7 +27,7 @@ def main():
         if any(record.get(k)!=manifest[iid][k] for k in ["split","arrangement_id","contact","background","lighting"]):
             raise ValueError("Prediction metadata disagrees with manifest")
         if record["split"]!=run["split"]:raise ValueError("Mixed dataset splits")
-        label=load_label(ROOT,iid)
+        label=load_label(ROOT,iid,allow_unreviewed=args.allow_unreviewed_labels)
         if (label["image_width"],label["image_height"])!=(record["image_width"],record["image_height"]):
             raise ValueError("Label and prediction image dimensions differ")
         if record["count"]!=len(record["coins"]):raise ValueError("Prediction count mismatch")
@@ -41,9 +42,13 @@ def main():
         raise ValueError("Evaluator per_image results must cover all evaluated photos")
     output=(ROOT/args.output).resolve();output.mkdir(parents=True,exist_ok=False)
     payload={"status":"completed","method":run["method"],"clahe":run["clahe"],
-             "split":run["split"],"pilot_run":run.get("pilot_run",False),"results":result}
+             "split":run["split"],"pilot_run":run.get("pilot_run",False),
+             "annotation_review":"provisional_unreviewed" if args.allow_unreviewed_labels else "reviewed",
+             "review_disclosure":"Scores use supplied VIA annotations; original annotator names and independent review pending." if args.allow_unreviewed_labels else "Reviewed labels required.",
+             "results":result}
     (output/"metrics.json").write_text(json.dumps(payload,indent=2,allow_nan=False),encoding="utf-8")
     print(f"Saved {output/'metrics.json'}")
+    if args.allow_unreviewed_labels:print('PROVISIONAL: independent human annotation review is pending.')
 if __name__=="__main__":
     try:main()
     except (ValueError,OSError,NotImplementedError,KeyError) as e:

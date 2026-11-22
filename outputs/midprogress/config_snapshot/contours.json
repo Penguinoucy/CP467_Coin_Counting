@@ -1,0 +1,15 @@
+{
+  "implementation_ready": true,
+  "method": "contours",
+  "parameters": {
+    "blur_kernel": 5,
+    "blur_sigma": 1.2,
+    "border_fraction": 0.02,
+    "open_kernel": 3,
+    "close_kernel": 5,
+    "min_radius_fraction": 0.025,
+    "max_radius_fraction": 0.14,
+    "min_circularity": 0.5
+  },
+  "selection_notes": "Development-only exploration on 36 supplied development photos; selected min_circularity=0.5 by highest mean F1 across CLAHE off/on, lower MAE as tie-break. Same settings retained for both variants. Labels not independently reviewed. Validation/test not opened by this script."
+}

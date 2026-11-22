@@ -1,0 +1,896 @@
+{
+  "status": "completed",
+  "method": "hough",
+  "clahe": false,
+  "split": "validation",
+  "pilot_run": true,
+  "annotation_review": "provisional_unreviewed",
+  "review_disclosure": "Scores use supplied VIA annotations; original annotator names and independent review pending.",
+  "results": {
+    "per_image": [
+      {
+        "image_id": "layout02_light_diffuse",
+        "arrangement_id": "02",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 10,
+        "true_count": 10,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 56.24704550018578,
+        "matches": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            3
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout02_light_dim",
+        "arrangement_id": "02",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "predicted_count": 8,
+        "true_count": 10,
+        "absolute_count_error": 2,
+        "exact_count": false,
+        "median_ms": 55.28700400054731,
+        "matches": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            3
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          6,
+          9
+        ]
+      },
+      {
+        "image_id": "layout02_light_directional",
+        "arrangement_id": "02",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 7,
+        "fp": 0,
+        "fn": 3,
+        "predicted_count": 7,
+        "true_count": 10,
+        "absolute_count_error": 3,
+        "exact_count": false,
+        "median_ms": 56.66021749993888,
+        "matches": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          5,
+          8,
+          9
+        ]
+      },
+      {
+        "image_id": "layout02_dark_diffuse",
+        "arrangement_id": "02",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 10,
+        "true_count": 10,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 54.74399600007018,
+        "matches": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout02_dark_dim",
+        "arrangement_id": "02",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 10,
+        "true_count": 10,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 54.82615849950889,
+        "matches": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout02_dark_directional",
+        "arrangement_id": "02",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 10,
+        "true_count": 10,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 55.36849299960522,
+        "matches": [
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            2
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout12_light_diffuse",
+        "arrangement_id": "12",
+        "background": "light",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 255.20874449966868,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout12_light_dim",
+        "arrangement_id": "12",
+        "background": "light",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 37.774694499603356,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout12_light_directional",
+        "arrangement_id": "12",
+        "background": "light",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "predicted_count": 8,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 32.406710000032035,
+        "matches": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": [
+          5
+        ]
+      },
+      {
+        "image_id": "layout12_dark_diffuse",
+        "arrangement_id": "12",
+        "background": "dark",
+        "lighting": "diffuse",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 1,
+        "fn": 0,
+        "predicted_count": 10,
+        "true_count": 9,
+        "absolute_count_error": 1,
+        "exact_count": false,
+        "median_ms": 265.9419444999003,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            8
+          ]
+        ],
+        "unmatched_predictions": [
+          2
+        ],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout12_dark_dim",
+        "arrangement_id": "12",
+        "background": "dark",
+        "lighting": "dim",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 44.673402000171336,
+        "matches": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      },
+      {
+        "image_id": "layout12_dark_directional",
+        "arrangement_id": "12",
+        "background": "dark",
+        "lighting": "directional",
+        "contact": "separated",
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "predicted_count": 9,
+        "true_count": 9,
+        "absolute_count_error": 0,
+        "exact_count": true,
+        "median_ms": 59.24544700019396,
+        "matches": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "unmatched_predictions": [],
+        "unmatched_labels": []
+      }
+    ],
+    "summary": {
+      "status": "evaluated",
+      "n_images": 12,
+      "n_arrangements": 2,
+      "true_coins": 114,
+      "predicted_coins": 109,
+      "tp": 108,
+      "fp": 1,
+      "fn": 6,
+      "precision": 0.9908256880733946,
+      "recall": 0.9473684210526315,
+      "f1": 0.968609865470852,
+      "count_mae": 0.5833333333333334,
+      "exact_count_accuracy": 0.6666666666666666,
+      "median_ms": 55.32774850007627
+    },
+    "by_contact": {
+      "separated": {
+        "status": "evaluated",
+        "n_images": 12,
+        "n_arrangements": 2,
+        "true_coins": 114,
+        "predicted_coins": 109,
+        "tp": 108,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.9908256880733946,
+        "recall": 0.9473684210526315,
+        "f1": 0.968609865470852,
+        "count_mae": 0.5833333333333334,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 55.32774850007627
+      },
+      "touching": {
+        "status": "not_evaluated",
+        "n_images": 0,
+        "n_arrangements": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "count_mae": null,
+        "exact_count_accuracy": null,
+        "median_ms": null
+      }
+    },
+    "by_background_lighting": {
+      "dark_diffuse": {
+        "status": "evaluated",
+        "n_images": 2,
+        "n_arrangements": 2,
+        "true_coins": 19,
+        "predicted_coins": 20,
+        "tp": 19,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.95,
+        "recall": 1.0,
+        "f1": 0.9743589743589743,
+        "count_mae": 0.5,
+        "exact_count_accuracy": 0.5,
+        "median_ms": 160.34297024998523
+      },
+      "dark_dim": {
+        "status": "evaluated",
+        "n_images": 2,
+        "n_arrangements": 2,
+        "true_coins": 19,
+        "predicted_coins": 19,
+        "tp": 19,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "count_mae": 0.0,
+        "exact_count_accuracy": 1.0,
+        "median_ms": 49.749780249840114
+      },
+      "dark_directional": {
+        "status": "evaluated",
+        "n_images": 2,
+        "n_arrangements": 2,
+        "true_coins": 19,
+        "predicted_coins": 19,
+        "tp": 19,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "count_mae": 0.0,
+        "exact_count_accuracy": 1.0,
+        "median_ms": 57.30696999989959
+      },
+      "light_diffuse": {
+        "status": "evaluated",
+        "n_images": 2,
+        "n_arrangements": 2,
+        "true_coins": 19,
+        "predicted_coins": 19,
+        "tp": 19,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "count_mae": 0.0,
+        "exact_count_accuracy": 1.0,
+        "median_ms": 155.72789499992723
+      },
+      "light_dim": {
+        "status": "evaluated",
+        "n_images": 2,
+        "n_arrangements": 2,
+        "true_coins": 19,
+        "predicted_coins": 17,
+        "tp": 17,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8947368421052632,
+        "f1": 0.9444444444444444,
+        "count_mae": 1.0,
+        "exact_count_accuracy": 0.5,
+        "median_ms": 46.530849250075335
+      },
+      "light_directional": {
+        "status": "evaluated",
+        "n_images": 2,
+        "n_arrangements": 2,
+        "true_coins": 19,
+        "predicted_coins": 15,
+        "tp": 15,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.7894736842105263,
+        "f1": 0.8823529411764706,
+        "count_mae": 2.0,
+        "exact_count_accuracy": 0.0,
+        "median_ms": 44.53346374998546
+      }
+    },
+    "by_layout": {
+      "02": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 60,
+        "predicted_coins": 55,
+        "tp": 55,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1": 0.9565217391304348,
+        "count_mae": 0.8333333333333334,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 55.32774850007627
+      },
+      "12": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 54,
+        "tp": 53,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9814814814814815,
+        "recall": 0.9814814814814815,
+        "f1": 0.9814814814814815,
+        "count_mae": 0.3333333333333333,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 51.95942450018265
+      }
+    },
+    "by_capture_group": {
+      "layouts01-04": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 60,
+        "predicted_coins": 55,
+        "tp": 55,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1": 0.9565217391304348,
+        "count_mae": 0.8333333333333334,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 55.32774850007627
+      },
+      "layouts09-12": {
+        "status": "evaluated",
+        "n_images": 6,
+        "n_arrangements": 1,
+        "true_coins": 54,
+        "predicted_coins": 54,
+        "tp": 53,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9814814814814815,
+        "recall": 0.9814814814814815,
+        "f1": 0.9814814814814815,
+        "count_mae": 0.3333333333333333,
+        "exact_count_accuracy": 0.6666666666666666,
+        "median_ms": 51.95942450018265
+      }
+    },
+    "metric_notes": "Micro detection scores use summed TP/FP/FN. Undefined ratios in evaluated groups are 0. Absent groups are null/not_evaluated. Exact count can hide cancelling detection errors."
+  }
+}
