@@ -1,12 +1,1 @@
-{
-  "image_id": "layout04_dark_dim",
-  "annotation_status": "not_started",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
-  "image_width": null,
-  "image_height": null,
-  "coin_count": null,
-  "coins": null,
-  "notes": ""
-}
+{"layout04_dark_dim.jpg679243":{"filename":"layout04_dark_dim.jpg","size":679243,"regions":[{"shape_attributes":{"name":"circle","cx":496,"cy":3107,"r":209.601},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2456,"cy":3140,"r":203.878},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1068,"cy":1696,"r":213},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1405,"cy":970,"r":179},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1840,"cy":2936,"r":176.606},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1377,"cy":2826,"r":176.348},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":898,"cy":2655,"r":186},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":441,"cy":2716,"r":162},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":2407,"cy":2076,"r":131},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":590,"cy":1824,"r":167},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":232,"cy":1977,"r":157},"region_attributes":{}},{"shape_attributes":{"name":"circle","cx":1680,"cy":397,"r":138},"region_attributes":{}}],"file_attributes":{}}}
