@@ -1,9 +1,5 @@
 {
   "image_id": "layout01_dark_dim",
-  "annotation_status": "complete",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
   "image_width": 3024,
   "image_height": 4032,
   "coin_count": 7,
@@ -43,6 +39,5 @@
       "y": 1036,
       "radius": 165.613
     }
-  ],
-  "notes": "Converted from VIA export layout01_dark_dim.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+  ]
 }

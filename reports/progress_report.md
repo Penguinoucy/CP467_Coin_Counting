@@ -16,7 +16,7 @@ Working detectors, label conversion, split-aware runners, one-to-one matching, c
 
 Layouts 01-04 and 09-12 supply 48 readable photographs and 420 annotated coin instances: 20% of the planned photographs, representing only eight distinct arrangements. Development uses layouts 01, 03, 04, 09, 10 and 11 (36 photos, 306 instances). Validation uses layouts 02 and 12 (12 photos, 114 instances). All available arrangements contain separated coins.
 
-All six photos from an arrangement remain in one split. The full manifest reserves 28/4/8 arrangements for development/validation/test (168/24/48 photos). Independent human review and annotator identities are pending for all 48 supplied labels; all reported scores are provisional. No final-test or touching-coin images were evaluated.
+All six photos from an arrangement remain in one split. The full manifest reserves 28/4/8 arrangements for development/validation/test (168/24/48 photos). Independent peer review and annotator identities are pending for all 48 supplied labels; all reported scores are provisional. No final-test or touching-coin images were evaluated.
 
 
 ---

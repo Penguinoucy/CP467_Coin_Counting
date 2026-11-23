@@ -94,4 +94,4 @@ New reproduction output folders remain ignored. No virtual environment or Git me
 
 The implementation and draft were produced with coding assistance. Group members still need to
 review the code/labels, confirm actual contributions, collection details and schedule, and verify
-private instructor/TA access. Remaining role sections and final-report files are human templates.
+private instructor/TA access. Remaining role sections and final-report files are contribution templates.

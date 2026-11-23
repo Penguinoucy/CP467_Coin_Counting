@@ -549,5 +549,5 @@
     "layout11_light_dim.json",
     "layout12_dark_directional.json"
   ],
-  "human_review_note": "No annotator identities or independent reviews were inferred or invented."
+  "independent_review_note": "No annotator identities or independent reviews were inferred or invented."
 }

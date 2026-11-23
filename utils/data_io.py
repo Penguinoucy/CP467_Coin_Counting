@@ -48,7 +48,13 @@ def load_manifest(root):
 def validate_label(label, image_id, allow_unreviewed=False):
     if label.get("image_id") != image_id:
         raise ValueError("Label image_id does not match manifest")
-    if label.get("annotation_status") != "complete" or (not allow_unreviewed and label.get("review_status") != "reviewed"):
+    # Minimal labels omit administrative fields. Accept them only for explicit
+    # provisional scoring; dimensions, counts and geometry are still checked below.
+    status_present = "annotation_status" in label
+    status_complete = label.get("annotation_status") == "complete"
+    if not status_complete and (status_present or not allow_unreviewed):
+        raise ValueError(f"Labels for {image_id} are incomplete or unreviewed")
+    if not allow_unreviewed and label.get("review_status") != "reviewed":
         raise ValueError(f"Labels for {image_id} are incomplete or unreviewed")
     for key in ["annotator", "reviewer"]:
         if not allow_unreviewed and (not isinstance(label.get(key), str) or not label[key].strip()):

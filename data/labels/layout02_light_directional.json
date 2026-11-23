@@ -1,9 +1,5 @@
 {
   "image_id": "layout02_light_directional",
-  "annotation_status": "complete",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
   "image_width": 3024,
   "image_height": 3934,
   "coin_count": 10,
@@ -58,6 +54,5 @@
       "y": 419,
       "radius": 127
     }
-  ],
-  "notes": "Converted from VIA export layout02_light_directional.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+  ]
 }

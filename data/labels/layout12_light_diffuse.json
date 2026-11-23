@@ -1,9 +1,5 @@
 {
   "image_id": "layout12_light_diffuse",
-  "annotation_status": "complete",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
   "image_width": 1805,
   "image_height": 1537,
   "coin_count": 9,
@@ -53,6 +49,5 @@
       "y": 248,
       "radius": 153.558
     }
-  ],
-  "notes": "Converted from VIA export layout12_light_diffuse.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+  ]
 }

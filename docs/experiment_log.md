@@ -15,7 +15,7 @@ Common settings and selected configs are copied into outputs/midprogress/config_
 Recorded runs: outputs/midprogress/{development,validation}/{hough_off,hough_on,contours_off,contours_on}/.
 Each contains predictions.json, marked_images and evaluation/metrics.json.
 All measured comparisons use identical image IDs within a split.
-Labels were explicitly scored provisionally; independent human review and identities remain pending.
+Labels were explicitly scored provisionally; independent peer review and identities remain pending.
 
 Timing: one OpenCV thread, 3 warm-ups and 10 timed repetitions per image.
 Includes resize, preprocessing and detector; excludes disk I/O, visualization and scoring.

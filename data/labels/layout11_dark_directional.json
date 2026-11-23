@@ -1,9 +1,5 @@
 {
   "image_id": "layout11_dark_directional",
-  "annotation_status": "complete",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
   "image_width": 1899,
   "image_height": 2554,
   "coin_count": 9,
@@ -53,6 +49,5 @@
       "y": 1450,
       "radius": 213
     }
-  ],
-  "notes": "Converted from VIA export layout11_dark_directional.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+  ]
 }

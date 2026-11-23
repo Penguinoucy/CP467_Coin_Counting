@@ -1,4 +1,4 @@
-# Work completed and human contributions still needed
+# Work completed and group contributions still needed
 
 Owners remain unassigned. This implementation was produced with coding assistance from the
 supplied project snapshot and annotations. Do not attribute its implementation or measurements
@@ -13,7 +13,7 @@ to a group member who has not done and reviewed that work. The group must confir
 | 5 Integration | CLI runners/evaluator, version pins, experiment records, automation, report PDF builder and draft | Reproduce on group computer, merge reviewed changes, verify private repository access, assemble members' sections and demo |
 | All | Five-page main report draft plus references based on measured pilot | Confirm names, actual ownership, contributions, capture facts, remaining schedule and submission claims |
 
-`reports/sections/role_1.md` through `role_5.md` remain human contribution templates.
+`reports/sections/role_1.md` through `role_5.md` remain member contribution templates.
 `data/capture_log.json` remains a template because collection details were not supplied.
 The final report and presentation outline remain templates for later project completion.
 No labels were marked reviewed and no final-test approval was granted.
