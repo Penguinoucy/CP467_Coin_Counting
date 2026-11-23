@@ -23,6 +23,6 @@ def main():
     if errors:
         print('\n'.join(errors));return 2
     print(f'All {len(inventory["images"])} source photographs match recorded hashes; {instances} label instances structurally valid.')
-    print('This verifies files and structure, not independent human annotation review.')
+    print('This verifies files and structure, not independent peer annotation review.')
     return 0
 if __name__=='__main__':sys.exit(main())

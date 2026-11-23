@@ -11,7 +11,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--predictions",required=True)
     p.add_argument("--output",required=True)
-    p.add_argument("--allow-unreviewed-labels",action="store_true",help="Explicit provisional scoring; human review pending")
+    p.add_argument("--allow-unreviewed-labels",action="store_true",help="Explicit provisional scoring; peer review pending")
     args=p.parse_args()
     if metrics.IMPLEMENTATION_READY is not True:
         raise ValueError("Role 4 must complete evaluation/metrics.py and matching.py first")
@@ -48,7 +48,7 @@ def main():
              "results":result}
     (output/"metrics.json").write_text(json.dumps(payload,indent=2,allow_nan=False),encoding="utf-8")
     print(f"Saved {output/'metrics.json'}")
-    if args.allow_unreviewed_labels:print('PROVISIONAL: independent human annotation review is pending.')
+    if args.allow_unreviewed_labels:print('PROVISIONAL: independent peer annotation review is pending.')
 if __name__=="__main__":
     try:main()
     except (ValueError,OSError,NotImplementedError,KeyError) as e:

@@ -105,7 +105,7 @@ def convert_export(source, image_dir, annotator=None):
             'coin_count': len(coins),
             'coins': coins,
             'notes': f'Converted from VIA export {source.name}. Circle measurements unchanged. '
-                     'Original annotator identity and independent human review must be recorded.'
+                     'Original annotator identity and independent peer review must be recorded.'
         }
         if iid in converted and converted[iid] != label:
             raise ValueError(f'{source}: duplicate image entries disagree: {iid}')

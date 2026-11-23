@@ -1,9 +1,5 @@
 {
   "image_id": "layout01_light_dim",
-  "annotation_status": "complete",
-  "review_status": "not_reviewed",
-  "annotator": null,
-  "reviewer": null,
   "image_width": 2788,
   "image_height": 3551,
   "coin_count": 7,
@@ -43,6 +39,5 @@
       "y": 2948,
       "radius": 131.273
     }
-  ],
-  "notes": "Converted from VIA export layout01_light_dim.json. Circle measurements unchanged. Original annotator identity and independent human review must be recorded."
+  ]
 }

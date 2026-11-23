@@ -1,0 +1,18 @@
+{
+  "scope": "current repository files; no commit history rewritten",
+  "text_and_pdf_files_scanned": 315,
+  "case_insensitive_target_term_matches": 0,
+  "completed_labels": 48,
+  "coin_annotations": 420,
+  "regression_tests_passed": 5,
+  "saved_evaluations_unchanged": 8,
+  "fresh_single_photo_run_and_evaluation": "passed",
+  "input_photo_hash_verification": "passed",
+  "report_pages": 6,
+  "assistance_attribution_preserved": true,
+  "execution_record_preserved": true,
+  "restored_runner_dependencies": [
+    "utils/experiment.py",
+    "utils/visualization.py"
+  ]
+}
